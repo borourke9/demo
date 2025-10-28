@@ -51,6 +51,13 @@
                 preload="auto">
                 <source src="videos/elect.MOV" type="video/quicktime">
                 <source src="videos/elect.MOV" type="video/mp4">
+                <!-- Fallback: If video fails to load, try YouTube embed -->
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&loop=1&playlist=dQw4w9WgXcQ&mute=1&controls=0&modestbranding=1" 
+                    style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; pointer-events: none;"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media">
+                </iframe>
                 Your browser does not support the video tag.
             </video>
             <div class="video-overlay"></div>
