@@ -5,7 +5,5 @@
 .Spotlight-V100
 .Trashes
 
-# Video files (add specific ones if needed)
-*.mov
-*.MOV
+# Note: Video files are tracked for Vercel deployment
 
